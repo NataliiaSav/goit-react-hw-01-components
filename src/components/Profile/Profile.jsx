@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { ProfileCard } from './Profile.styled';
 
 
 
@@ -31,7 +32,7 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
-  plocation: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
   aavatar: PropTypes.string.isRequired,
   stats: PropTypes.object,
 };
