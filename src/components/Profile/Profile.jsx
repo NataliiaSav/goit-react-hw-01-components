@@ -7,7 +7,7 @@ import { ProfileCard, Description, UserAvatar, UserName, UserTag, Location, User
 export const Profile = ({username, tag, location, avatar, stats}) => {
     return (<ProfileCard>
   <Description>
-    <UserAvatar alt="User avatar">{avatar}</UserAvatar>
+    <UserAvatar src={avatar} alt="User avatar" />
     <UserName>{username}</UserName>
     <UserTag>@{tag}</UserTag>
     <Location>{location}</Location>
