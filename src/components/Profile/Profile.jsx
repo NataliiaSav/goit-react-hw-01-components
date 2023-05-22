@@ -1,5 +1,6 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-import { ProfileCard } from './Profile.styled';
+import { ProfileCard, Description, UserAvatar, UserName, UserTag, Location, UserStats, StatsItem, Label, Quantity } from './Profile.styled';
 
 
 
