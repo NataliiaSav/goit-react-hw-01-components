@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { SectionStats, TitleStats, StatsList, StatsItem, Label,Percentage } from './Statistics.styled';
+import { SectionStats, TitleStats, StatsList, StatsItem, Label, Percentage } from './Statistics.styled';
+import { getRandomColor } from './GetColor';
 
 export const Statistics = ({ title, stats }) => {
     return(<SectionStats>
@@ -8,7 +9,7 @@ export const Statistics = ({ title, stats }) => {
 
       <StatsList>
         {stats.map((item) =>
-          <StatsItem key={item.id}> 
+          <StatsItem key={item.id} style={{ backgroundColor: getRandomColor() }}> 
             <Label>{item.label}</Label>
             <Percentage>{item.percentage}</Percentage>
           </StatsItem>

@@ -7,7 +7,7 @@ export const ProfileCard = styled.div`
   align-items: center;
   justify-content: center;
   width: 320px;
-  background-color: #fff5ee;
+  background-color: #f8f8ff;
   border: 1px solid black;
   border-radius: 4px;
   margin-top: 15px;
@@ -38,16 +38,16 @@ export const UserTag = styled.p`
 export const Location = styled.p`
   font-size: 14px;
   color: #4e4e4e;
+  padding-bottom: 10px;
 `;
 export const UserStats = styled.ul`
-  padding: 20px 10px;
-
+  padding: 16px 0;
   width: 100%;
   list-style: none;
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
+  background-color: #dcdcdc;
 `;
 export const StatsItem = styled.li`
   display: flex;
@@ -55,6 +55,10 @@ export const StatsItem = styled.li`
   justify-content: center;
   flex-direction: column;
   width: 100%;
+
+  &:not(:last-child) {
+    border-right: 1px solid gray;
+  }
 `;
 export const Label = styled.span`
   padding-bottom: 6px;

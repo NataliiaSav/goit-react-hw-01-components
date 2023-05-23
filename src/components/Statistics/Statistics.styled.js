@@ -13,21 +13,24 @@ export const SectionStats = styled.div`
   margin-top: 15px;
 `;
 export const TitleStats = styled.h2`
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   font-size: 24px;
   font-weight: 700;
   color: #000000;
 `;
 export const StatsList = styled.ul`
-  padding: 20px 10px;
   width: 100%;
   list-style: none;
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
+  color: black;
+  font-weight: 500;
 `;
 export const StatsItem = styled.li`
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,11 +39,8 @@ export const StatsItem = styled.li`
 `;
 export const Label = styled.span`
   padding-bottom: 6px;
-  font-size: 14px;
-  color: #4e4e4e;
+  font-size: 16px;
 `;
 export const Percentage = styled.span`
-  font-size: 18px;
-  font-weight: 500;
-  color: #292929;
+  font-size: 20px;
 `;
