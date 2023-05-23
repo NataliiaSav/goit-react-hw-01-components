@@ -11,13 +11,14 @@ export const SectionStats = styled.div`
   border: 1px solid black;
   border-radius: 4px;
   margin-top: 15px;
+  margin-bottom: 15px;
 `;
 export const TitleStats = styled.h2`
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 15px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
 `;
 export const StatsList = styled.ul`
   width: 100%;

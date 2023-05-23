@@ -5,8 +5,8 @@ import { getRandomColor } from './GetColor';
 
 export const Statistics = ({ title, stats }) => {
     return(<SectionStats>
-  <TitleStats>{title}</TitleStats>
-
+      {title && <TitleStats>{title}</TitleStats>}
+  
       <StatsList>
         {stats.map((item) =>
           <StatsItem key={item.id} style={{ backgroundColor: getRandomColor() }}> 
