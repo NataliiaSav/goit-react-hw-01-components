@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { SectionStats, TitleStats, StatsList, StatsItem, Label, Percentage } from './Statistics.styled';
-import { getRandomColor } from './GetColor';
+import { getRandomColor } from '../../helper/getColor';
 
 export const Statistics = ({ title, stats }) => {
     return(<SectionStats>
